@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: pip   # requirements.txt
+    directory: /
+    schedule:
+      interval: weekly
