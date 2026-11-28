@@ -3,3 +3,10 @@ __pycache__/
 .DS_Store
 .venv/
 results/
+
+# Local secrets, keys and certificates never belong in the repository
+.env
+.env.*
+*.pem
+*.key
+*.p12
